@@ -1,0 +1,135 @@
+    @charset "UTF-8";
+    @font-face {
+        font-family: "android";
+        src: url("fontes/idroid.otf") format('opentype');
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+    }
+    
+    header {
+        background-image: linear-gradient(to top, #417e5c, #84e1ad);
+        color: white;
+        padding-bottom: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    }
+    
+    p {
+        text-indent: 30px;
+    }
+    
+    header>p {
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+    }
+    
+    header>nav>a {
+        padding-left: 20px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    
+    header>nav>a:hover {
+        color: yellow;
+    }
+    
+    main {
+        background-color: #84e1ad;
+        padding: 0px 100px 10px 100px;
+        margin-bottom: 0px;
+    }
+    
+    h1 {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: normal;
+    }
+    
+    article {
+        background-color: white;
+        padding: 5px 10px 5px 10px;
+    }
+    
+    .destaque {
+        font-weight: bold;
+        color: #417e5c;
+    }
+    
+    h2 {
+        font-family: 'android', 'Times New Roman', Times, serif;
+        color: #224632;
+    }
+    
+    h3 {
+        font-family: 'android', 'Times New Roman', Times, serif;
+        background-color: #84e1ad;
+        background-image: linear-gradient( to right, #84e1ad, white);
+        color: #224632;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    #bugdroid img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    #video {
+        margin: -10px;
+        background-color: #224632;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+    }
+    
+    #extra {
+        background-color: white;
+        padding: 10px 1px 10px 1px;
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 10px;
+    }
+    
+    #card {
+        background-color: #84e1ad;
+        padding: 10px 10px 10px 10px;
+        margin: 0px 10px 20px 10px;
+        border-radius: 10px;
+        box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.507);
+    }
+    
+    div>#final {
+        background-color: #5e8d71;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bold;
+        padding: 10px 10px 0px 10px;
+        margin: -10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .listas {
+        display: flex;
+        text-decoration: underline;
+    }
+    
+    #ultimo {
+        padding: 10px;
+    }
+    
+    footer {
+        background-color: #224632;
+        color: white;
+        text-align: center;
+    }
+    
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #417e5c;
+    }
